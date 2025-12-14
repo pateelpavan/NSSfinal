@@ -73,6 +73,21 @@ export const studentsData: NSSUser[] = [
     certificates: [],
     eventHistory: [],
   }),
+  export const studentsData: NSSUser[] = [
+  // Add students here using the createStudent() function
+  // Example:
+  createStudent({
+    fullName: 'M.shiva kumar',
+    rollNumber: '22R01A0482',
+    branch: 'ECE',
+    password: 'Shiva@123', // REQUIRED: Admin sets initial password
+    profilePhoto: 'https://media.licdn.com/dms/image/v2/D5603AQF3a8Mpc4oTnQ/profile-displayphoto-scale_200_200/B56ZsTQq.5HAAY-/0/1765554696634?e=1767225600&v=beta&t=SjATp_b800zfb1VWOcjZYvUA8UtgAYRh0hJ6keiuj0k', // Optional: Add image URL if available
+    isApproved: true,
+    joinDate: '2022-01-14',
+    achievements: [],
+    certificates: [],
+    eventHistory: [],
+  }),
   
   // Template for adding new students:
   // Copy this template and fill in the details from the registration email
