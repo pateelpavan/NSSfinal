@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "CMRIT",
+    "NSS",
+    "Recharts",
+    "Radix",
+    "cmdk",
+    "lucide",
+    "vitejs",
+    "patee"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "build/**",
+    "dist/**",
+    "**/*.log",
+    "**/_logs/**"
+  ]
+}

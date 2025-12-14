@@ -1,0 +1,29 @@
+# Node
+node_modules/
+
+# Vite
+/dist/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+/database/.env
+
+# Netlify local build dir
+.netlify/
+
+# IDE/editor
+.vscode/
+*.swp
+.idea/
