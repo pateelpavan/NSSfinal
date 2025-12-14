@@ -73,9 +73,6 @@ export const studentsData: NSSUser[] = [
     certificates: [],
     eventHistory: [],
   }),
-  export const studentsData: NSSUser[] = [
-  // Add students here using the createStudent() function
-  // Example:
   createStudent({
     fullName: 'M.shiva kumar',
     rollNumber: '22R01A0482',
