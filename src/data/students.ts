@@ -97,6 +97,18 @@ export const studentsData: NSSUser[] = [
     certificates: [],
     eventHistory: [],
   }),
+    createStudent({
+    fullName: 'Khathri Mounika',
+    rollNumber: '23R01A66N3',
+    branch: 'CSM',
+    password: '23R01A66N3', // REQUIRED: Admin sets initial password
+    profilePhoto: '', // Optional: Add image URL if available
+    isApproved: true,
+    joinDate: '2024-01-14',
+    achievements: [],
+    certificates: [],
+    eventHistory: [],
+  }),
   // Template for adding new students:
   // Copy this template and fill in the details from the registration email
   // createStudent({
