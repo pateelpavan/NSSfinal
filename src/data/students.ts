@@ -80,12 +80,23 @@ export const studentsData: NSSUser[] = [
     password: 'Shiva@123', // REQUIRED: Admin sets initial password
     profilePhoto: 'https://media.licdn.com/dms/image/v2/D5603AQF3a8Mpc4oTnQ/profile-displayphoto-scale_200_200/B56ZsTQq.5HAAY-/0/1765554696634?e=1767225600&v=beta&t=SjATp_b800zfb1VWOcjZYvUA8UtgAYRh0hJ6keiuj0k', // Optional: Add image URL if available
     isApproved: true,
-    joinDate: '2022-01-14',
+    joinDate: '2023-01-14',
     achievements: [],
     certificates: [],
     eventHistory: [],
   }),
-  
+   createStudent({
+    fullName: 'Pasham Sandeep Reddy',
+    rollNumber: '22R01A0451',
+    branch: 'ECE',
+    password: '22R01A0451', // REQUIRED: Admin sets initial password
+    profilePhoto: '', // Optional: Add image URL if available
+    isApproved: true,
+    joinDate: '2023-01-14',
+    achievements: [],
+    certificates: [],
+    eventHistory: [],
+  }),
   // Template for adding new students:
   // Copy this template and fill in the details from the registration email
   // createStudent({
